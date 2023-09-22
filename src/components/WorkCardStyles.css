@@ -18,6 +18,7 @@
 }
 
 .project-card img{
+    max-height: 150px;
     width: 100%;
 }
 
@@ -42,6 +43,21 @@
 .pro-btns .btn{
     padding: 0.5rem 1rem;
 }
+
+.read-more-btn{
+    padding: 0.1rem;
+    margin-left: 20px;
+    background-color: lightblue;
+    border-radius: 7px;
+    font-size: 12px;
+}
+
+.read-more-btn:hover{
+    background-color:rgb(143, 143, 203);
+    padding: 0.2rem 0.2rem;
+    font-size: 13px;
+}
+
 
 
 @media screen and (max-width:740px){
