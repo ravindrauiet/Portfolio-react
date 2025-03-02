@@ -12,6 +12,7 @@ const WorkCard = (props) => {
     setFullTextVisible(!isFullTextVisible);
   };
   return (
+  <div className="project-container">
     <div className="project-card">
         <img src={props.imgsrc} alt="Project-img" />
         <h2 className="project-title">{props.title}</h2>
@@ -37,6 +38,7 @@ const WorkCard = (props) => {
             </div>
         </div>
     </div>
+  </div>
   )
 }
 
